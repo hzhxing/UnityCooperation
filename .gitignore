@@ -17,7 +17,8 @@ obj/
 *.csproj
 *.pidb
 *.suo
-/*.sln
+/ProjectDev/*.sln
+/ProjectArt/*.sln
 *.user
 *.unityproj
 *.booproj
