@@ -1,0 +1,27 @@
+<root>
+    <AssetBundle>
+        <Item path="^Assets/Project/Art/UI/Texture/(\w+)/.*$" abName="ui/texture/{0}" />
+        <Item path="^Assets/Project/Art/Shader/[\w\.]+$" abName="shader" />
+        <Item path="^Assets/Project/Art/Font/[\w\.]+$" abName="font" />
+        <Item path="^Assets/Project/Art/Effect/Effect_(\w+).prefab$" abName="effect/effect_{0}" />
+        <Item path="^Assets/Project/Art/Scene/Common/[\w/\.]+$" abName="scene/common" />
+        <Item path="^Assets/Project/Art/Scene/Scene_(\w+)/.+$" abName="scene/scene_{0}" />
+        <Item path="^Assets/Project/Art/Avatar/Common/[\w/\.]+$" abName="avatar/common" />
+        <Item path="^Assets/Project/Art/Avatar/Avatar_(\w+)/.+$" abName="avatar/avatar_{0}" />
+    </AssetBundle>
+    <ModelImport>
+        <Item path="^Assets/Project/Art/Avatar/[\w/\.]+\.fbx$" 
+              importMaterials="false" meshCompression="Medium" optimizeMesh="true" isReadable="false" 
+              importBlendShapes="false" importTangents="None" importNormals="Import"/>
+    </ModelImport>
+    <TextureImport>
+        <Item path="^Assets/Project/Art/Avatar/[\w/\.]+\.(jpg|png)$" 
+              textureType="Image" mipmapEnabled="true" spriteImportMode="Single" spritePackingTag="" isReadable="false"
+              androidFormat="AutomaticCompressed" androidQuality="100" androidMaxSize="512" androidAlphaSplit="false"
+              iosFormat="AutomaticCompressed"  iosQuality="100" iosMaxSize="512"/>
+        <Item path="^Assets/Project/Art/UI/Texture/Common/[\w/\.]+\.(jpg|png)$"
+              textureType="Sprite" mipmapEnabled="false" spriteImportMode="Single" spritePackingTag="CommonTexture" isReadable="false"
+              androidFormat="ETC_RGB4" androidQuality="100" androidMaxSize="2048" androidAlphaSplit="true"
+              iosFormat="AutomaticCompressed"  iosQuality="100" iosMaxSize="2048"/>
+    </TextureImport>
+</root>
