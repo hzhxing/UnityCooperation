@@ -24,14 +24,14 @@ obj/
 *.booproj
 .idea/
 .vscode/
-/ProjectDev/StreamingAssets/AssetBundles/
-/ProjectDev/StreamingAssets/AssetBundles.meta
-/ProjectDev/Plugins/Editor/JetBrains/
-/ProjectDev/Plugins/Editor/JetBrains.meta
-/ProjectDev/Resources/version.bytes
-/ProjectDev/Resources/version.bytes.meta
-/ProjectArt/Plugins/Editor/JetBrains/
-/ProjectArt/Plugins/Editor/JetBrains.meta
+/ProjectDev/Assets/StreamingAssets/AssetBundles/
+/ProjectDev/Assets/StreamingAssets/AssetBundles.meta
+/ProjectDev/Assets/Plugins/Editor/JetBrains/
+/ProjectDev/Assets/Plugins/Editor/JetBrains.meta
+/ProjectDev/Assets/Resources/version.bytes
+/ProjectDev/Assets/Resources/version.bytes.meta
+/ProjectArt/Assets/Plugins/Editor/JetBrains/
+/ProjectArt/Assets/Plugins/Editor/JetBrains.meta
 /ProjectDev/Publish/
 
 
