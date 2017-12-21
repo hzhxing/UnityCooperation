@@ -10,4 +10,4 @@ Unity项目美术与开发协作的工作方式
 
 *AssetBundle的依赖处理实现（AssetBunelTool.BuildDepend），依赖处理需要构造资源的引用关系，耗时比较长，并且会修改资源文件（设置AssetBundle）
 
-	推荐使用的协作方式是同一个项目，然后使用SVN管理文件夹权限。使用不同项目可以考虑一下使用Symlink同步资源，如果用unitypackage的方式同步资源无法有以下问题：1，美术项目资源改变路径时，开发目录无法同步 2.使用unitypackage本身有一些bug，修改的资源再导入开发项目时不会触发AssetImport，一些自动化处理工具会有问题
+*推荐使用的协作方式是同一个项目，然后使用SVN管理文件夹权限。使用不同项目可以考虑一下使用Symlink同步资源，如果用unitypackage的方式同步资源无法有以下问题：1，美术项目资源改变路径时，开发目录无法同步 2.使用unitypackage本身有一些bug，修改的资源再导入开发项目时不会触发AssetImport，一些自动化处理工具会有问题
