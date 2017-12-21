@@ -2,7 +2,7 @@
 
 Unity项目美术与开发协作的工作方式
 
-*美术与开发使用不同项目，ProjectDev是开发项目，ProjectArt是美术项目，Assets/Project/Art是公共目录（使用符号链接实现）。这样做的既能保护开发代码，也方便开发项目同步美术资源
+*美术与开发使用不同项目，ProjectDev是开发项目，ProjectArt是美术项目，Assets/Project/Art是公共目录（使用符号链接实现）。这样做的既能保护开发代码，也方便开发项目同步美术资源。第一次打开ProjectDev项目需要以管理员运行Symlink.bat
 
 *ProjectArt项目 Assets/Project/Art/Editor中提供自动化导入设置功能，包括AssetBundle设置、Model导入设置与Texture导入设置。使用正则表达式方式配置在EditorConfig中
 
