@@ -15,7 +15,7 @@ namespace Editor
         private string mExportPath;
 		#if UNITY_IOS
 		private BuildTarget mTarget = BuildTarget.iOS;
-		#elif UNITY_ANDROID
+		#else
 		private BuildTarget mTarget = BuildTarget.Android;
 		#endif
 

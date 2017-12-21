@@ -8,10 +8,10 @@ namespace Plugins.Editor
     {
         static SymlinkEditor()
         {
-            SymlinkUtil.CreateSymlink(Application.dataPath + "/ProjectDev/Project", "Art",
-                "../../../ProjectArt/Assets/Project/Art");
+           // SymlinkUtil.CreateSymlink(Application.dataPath + "/ProjectDev/Project", "Art",
+           //     "../../../ProjectArt/Assets/Project/Art");
             
-            Debug.Log("Create Symlink");
+           // Debug.Log("Create Symlink");
         }
     }
 }
